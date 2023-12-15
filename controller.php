@@ -30,14 +30,22 @@ if(isset($_POST['Name']) && isset($_POST['Phone']))
 
   $mailer = new \Swift_Mailer($transport);
 
-  // megaopt27@ukr.net
+  // megaopt27@ukr.net | igorwebber21@gmail.com
   $messageClient = (new \Swift_Message("Новый заказ"))
     ->setFrom(['igorwebber21@ukr.net' => 'Super Ikra'])
     ->setTo('megaopt27@ukr.net')
     ->setBody($body, 'text/html');
 
-  // Send a message
+  // Send a message 1
   $result = $mailer->send($messageClient);
+
+  $messageClient2 = (new \Swift_Message("Новый заказ"))
+    ->setFrom(['igorwebber21@ukr.net' => 'Super Ikra'])
+    ->setTo('igor.lubinsky21@gmail.com')
+    ->setBody($body, 'text/html');
+
+  // Send a message 2
+  $result2 = $mailer->send($messageClient2);
 
   echo $result;
 }
