@@ -21,7 +21,7 @@ $(function(){
       beforeSend: function(){ },
       success: function (res) {
  
-            console.log('res', res);
+           location.href = 'order.php';
       }
     });
 
@@ -29,5 +29,33 @@ $(function(){
 
   });
 
+
+
+  $(".t-input").click(function(){
+
+    let value = $(this).val();
+    let position = 0;
+    for (let i=0; i<value.length; i++){
+      if(value[i] === "_") {
+        position = i;
+        break;
+      }
+      position = i+1;
+    }
+
+    $(this).setCursorPosition(position);
+  });
+
+  $.fn.setCursorPosition = function(pos) {
+    if ($(this).get(0).setSelectionRange) {
+      $(this).get(0).setSelectionRange(pos, pos);
+    } else if ($(this).get(0).createTextRange) {
+      var range = $(this).get(0).createTextRange();
+      range.collapse(true);
+      range.moveEnd('character', pos);
+      range.moveStart('character', pos);
+      range.select();
+    }
+  };
 
 });

@@ -84,7 +84,7 @@
     <script src="js/tilda-catalog-1.1.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="/js/jquery.maskedinput.min.js"></script>
-    <script src="/js/myscripts.js?v=1000"></script>
+    <script src="/js/myscripts.js?v=1004"></script>
     <script type="text/javascript">
         window.dataLayer = window.dataLayer || [];
     </script>
@@ -276,7 +276,7 @@
                     <div class="mob-logo">
                         <img src="img/233.png" class="t228__imglogo " alt=" IKRA-SHOP ">
                           <a style="color:#ffffff";> Для отримання консутьтації телефонуйте:</a>
-                          <a  style="color:#ffffff"; href="tel:+380937896897"><strong><h2>+38 (093) 789-68-97</h2></a></strong>
+                          <a  style="color:#ffffff"; href="tel:+380985484793"><strong><h2>+38 (098) 548-47-93</h2></a></strong>
                     </div>
                     <div class="burger-menu">
                         <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -301,8 +301,8 @@
                                 <li class="t228__list_item"><a class="t-menu__link-item" href="#rec158825574" data-menu-submenu-hook="" style="color:#ffffff;font-size:20px;font-weight:600;text-transform:uppercase;" data-menu-item-number="2">ПРО НАС</a> </li>
                                 <li class="t228__list_item"><a class="t-menu__link-item" href="#rec158896830" data-menu-submenu-hook="" style="color:#ffffff;font-size:20px;font-weight:600;text-transform:uppercase;" data-menu-item-number="3">ВІДГУКИ</a> </li>
                                 <li class="t228__list_item"><a class="t-menu__link-item" href="#rec158915242" data-menu-submenu-hook="" style="color:#ffffff;font-size:20px;font-weight:600;text-transform:uppercase;" data-menu-item-number="4">ДОСТАВКА</a> </li>
-                                <li class="t228__list_item tel-item"><a href="tel:+380937896897"><img src="img/imgonline-com-ua-Resize-shAVIdkyLE5ZbY (1).png"></a>
-                                 <div><a href="tel:+380937896897"><h3>+38 (093) 789-68-97</h3></a></div>
+                                <li class="t228__list_item tel-item"><a href="tel:+380985484793"><img src="img/imgonline-com-ua-Resize-shAVIdkyLE5ZbY (1).png"></a>
+                                 <div><a href="tel:+380985484793"><h3>+38 (098) 548-47-93</h3></a></div>
                                 </li>
 
                             </ul>
@@ -327,8 +327,8 @@
                                 <li class="t228__list_item"><a class="t-menu__link-item" href="#rec158825574" data-menu-submenu-hook="" style="color:#ffffff;font-size:20px;font-weight:600;text-transform:uppercase;" data-menu-item-number="2">ПРО НАС</a> </li>
                                 <li class="t228__list_item"><a class="t-menu__link-item" href="#rec158896830" data-menu-submenu-hook="" style="color:#ffffff;font-size:20px;font-weight:600;text-transform:uppercase;" data-menu-item-number="3">ВІДГУКИ</a> </li>
                                 <li class="t228__list_item"><a class="t-menu__link-item" href="#rec158915242" data-menu-submenu-hook="" style="color:#ffffff;font-size:20px;font-weight:600;text-transform:uppercase;" data-menu-item-number="4">ДОСТАВКА</a> </li>
-                                 <li class="t228__list_item tel-item"><a href="tel:+380937896897"><img src="img/imgonline-com-ua-Resize-shAVIdkyLE5ZbY (1).png"></a>
-                                      <div><a href="tel:+380937896897"><h3>+38 (093) 789-68-97</h3></a></div>
+                                 <li class="t228__list_item tel-item"><a href="tel:+380985484793"><img src="img/imgonline-com-ua-Resize-shAVIdkyLE5ZbY (1).png"></a>
+                                      <div><a href="tel:+380985484793"><h3>+38 (098) 548-47-93</h3></a></div>
                                 </li>
 
                             </ul>
@@ -336,7 +336,7 @@
                     </div>
                    <div class="buttons-lang">
                         <a href style="color:#ffffff;="index.php"><h2 >UA</h2></a>
-                        <a href="index ru.php" class="lang-button current"><h3>ru</h3></a>
+                        <a href="index_ru.php" class="lang-button current"><h3>ru</h3></a>
                     </div>
 
                 </div>
@@ -2152,7 +2152,7 @@
                 </div>
                 
                   <div class="item js-product">
-                    <div class="img-area" style="background-image:url('img/чавыча-transformed.png');">
+                    <div class="img-area" style="background-image:url('img/chavicha-transformed.png');">
                         <div class="discount">- 50%</div>
                     </div>
                     <div class="text-area">
@@ -2232,7 +2232,7 @@
                             </div>
                         </div>
                         <div class="timer-button">КУПИТи ЧАВИЧУ ПО АКЦІЇ</div>
-                    </div>и
+                    </div>
                     <!--END TIMER-->
                     <!--Start POPUPS-->
                     <div class="t-popup t-popup_show order-popup">
@@ -4314,9 +4314,8 @@
         </div>
     </div>
     <p class="night-theme-background active-color" style="text-align:center;">
-        <span class="text">ТОВ "АВАНЧА" ОГРН 4517854632547;</span> <br>
-         <span class="text">ІПН 5478145632, м. Кам'янське</span> <br>
-         <span class="text">вул. Аношкіна, 21</span> <br>
+         <span class="text">м. Дніпро</span> <br>
+         <span class="text">вул. Богдана Хмельницького, 21</span> <br>
     </p>
     <div class="switcher night-theme-background active-color">
         <label class="switcher-item text">
@@ -4412,7 +4411,29 @@
     });
 </script>
 
+<!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1412726672953031');
+  fbq('init', '1074760507038616');
 
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+               src="https://www.facebook.com/tr?id=1412726672953031&ev=PageView&noscript=1"
+    /></noscript>
+
+<noscript><img height="1" width="1" style="display:none"
+               src="https://www.facebook.com/tr?id=1074760507038616&ev=PageView&noscript=1"
+    /></noscript>
+<!-- End Meta Pixel Code -->
 
 </body>
 

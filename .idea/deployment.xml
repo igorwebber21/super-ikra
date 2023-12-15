@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="super-ikra.com.ua">
+    <serverData>
+      <paths name="super-ikra.com.ua">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/www/super-ikra.com.ua" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

@@ -93,6 +93,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <script src="js/tilda-catalog-1.1.min.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="/js/jquery.maskedinput.min.js"></script>
+    <script src="/js/myscripts.js?v=1004"></script>
     <script type="text/javascript">
         window.dataLayer = window.dataLayer || [];
     </script>
@@ -298,7 +299,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="mob-logo">
                         <img src="img/233.png" class="t228__imglogo " alt=" Ikra-shopping ">
                         <a style="color:#ffffff";> Для отримання консутьтації телефонуйте:</a>
-                          <a  style="color:#ffffff"; href="tel:+380937896897"><strong><h2>+38 (093) 789-68-97</h2></a></strong>
+                          <a  style="color:#ffffff"; href="tel:+380985484793"><strong><h2>+38 (098) 548-47-93</h2></a></strong>
                     </div>
                     <div class="burger-menu">
                         <svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -323,8 +324,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <li class="t228__list_item"><a class="t-menu__link-item" href="#rec158825574" data-menu-submenu-hook="" style="color:#ffffff;font-size:20px;font-weight:600;text-transform:uppercase;" data-menu-item-number="2">О НАС</a> </li>
                                 <li class="t228__list_item"><a class="t-menu__link-item" href="#rec158896830" data-menu-submenu-hook="" style="color:#ffffff;font-size:20px;font-weight:600;text-transform:uppercase;" data-menu-item-number="3">ОТЗЫВЫ</a> </li>
                                 <li class="t228__list_item"><a class="t-menu__link-item" href="#rec158915242" data-menu-submenu-hook="" style="color:#ffffff;font-size:20px;font-weight:600;text-transform:uppercase;" data-menu-item-number="4">ДОСТАВКА</a> </li>
-                                <li class="t228__list_item tel-item"><a href="tel:+380937896897"><img src="img/imgonline-com-ua-Resize-shAVIdkyLE5ZbY (1).png"></a>
-                                 <div><a href="tel:+380937896897"><h3>+38 (093) 789-68-97</h3></a></div>
+                                <li class="t228__list_item tel-item"><a href="tel:+380985484793"><img src="img/imgonline-com-ua-Resize-shAVIdkyLE5ZbY (1).png"></a>
+                                 <div><a href="tel:+380985484793"><h3>+38 (098) 548-47-93</h3></a></div>
                                 </li>
 
                             </ul>
@@ -349,8 +350,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <li class="t228__list_item"><a class="t-menu__link-item" href="#rec158825574" data-menu-submenu-hook="" style="color:#ffffff;font-size:20px;font-weight:600;text-transform:uppercase;" data-menu-item-number="2">О НАС</a> </li>
                                 <li class="t228__list_item"><a class="t-menu__link-item" href="#rec158896830" data-menu-submenu-hook="" style="color:#ffffff;font-size:20px;font-weight:600;text-transform:uppercase;" data-menu-item-number="3">ОТЗЫВЫ</a> </li>
                                 <li class="t228__list_item"><a class="t-menu__link-item" href="#rec158915242" data-menu-submenu-hook="" style="color:#ffffff;font-size:20px;font-weight:600;text-transform:uppercase;" data-menu-item-number="4">ДОСТАВКА</a> </li>
-                                <li class="t228__list_item tel-item"><a href="tel:+380937896897"><img src="img/imgonline-com-ua-Resize-shAVIdkyLE5ZbY (1).png"></a>
-                                 <div><a href="tel:+380937896897"><h3>+38 (093) 789-68-97</h3></a></div>
+                                <li class="t228__list_item tel-item"><a href="tel:+380985484793"><img src="img/imgonline-com-ua-Resize-shAVIdkyLE5ZbY (1).png"></a>
+                                 <div><a href="tel:+380985484793"><h3>+38 (098) 548-47-93</h3></a></div>
                                 </li>
 
                             </ul>
@@ -358,7 +359,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                    <div class="buttons-lang">
                         <a href="index.php" class="lang-button"><h2>ua</h2></a>
-                        <a href="index ru.php" class="lang-button current"><h2>ru</h2></a>
+                        <a href="index_ru.php" class="lang-button current"><h2>ru</h2></a>
                     </div>
 
                 </div>
@@ -371,11 +372,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 $(window).resize(function() {
                     t228_setWidth('158760584');
                 });
-                $(window).load(function() {
+               /* $(window).load(function() {
                     if (typeof t228_setWidth !== "undefined") {
                         t228_setWidth('158760584');
                     }
-                });
+                });*/
             </script>
             <style>
           
@@ -2045,7 +2046,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
                 
                   <div class="item js-product">
-                    <div class="img-area" style="background-image:url('img/чавыча-transformed.png');">
+                    <div class="img-area" style="background-image:url('img/chavicha-transformed.png');">
                         <div class="discount">- 50%</div>
                     </div>
                     <div class="text-area">
@@ -3235,11 +3236,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </section>
         <script type="text/javascript">
-            $(document).ready(function() {
+        /*    $(document).ready(function() {
                 setTimeout(function() {
                     t778__init('158820531');
                 }, 500);
-            });
+            });*/
             $('.t778').bind('displayChanged', function() {
                 t778_unifyHeights('158820531');
             });
@@ -3762,9 +3763,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 $(document).ready(function() {
                     t533_equalHeight('158896830');
                 });
-                $(window).load(function() {
-                    t533_equalHeight('158896830');
-                });
+              /*  $(window).load(function() {
+                  t533_equalHeight('158896830');
+                });*/
                 var t533_doResize;
                 $(window).resize(function() {
                     if (t533_doResize) clearTimeout(t533_doResize);
@@ -4082,9 +4083,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
             </div>
             <script type="text/javascript">
-                $(document).ready(function() {
+               /* $(document).ready(function() {
                     t859_init('158915242');
-                });
+                });*/
             </script>
         </div>
         <div id="rec158918129" class="r t-rec t-rec_pb_75" style="padding-bottom:75px; " data-record-type="3">
@@ -4210,9 +4211,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
     </div>
     <p class="night-theme-background active-color" style="text-align:center;">
-        <span class="text">ТОВ "АВАНЧА" ОГРН 4517854632547;</span> <br>
-        <span class="text">ИНН 5478145632, г. Каменское</span> <br>
-        <span class="text">ул. Аношкина, 21</span> <br>
+        <span class="text">г. Днепр </span> <br>
+        <span class="text">ул. Богдана Хмельницкого, 21</span> <br>
     </p>
     <div class="switcher night-theme-background active-color">
         <label class="switcher-item text">
@@ -4309,6 +4309,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     });
 </script>
 
+<!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1412726672953031');
+  fbq('init', '1074760507038616');
+
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+               src="https://www.facebook.com/tr?id=1412726672953031&ev=PageView&noscript=1"
+    /></noscript>
+
+<noscript><img height="1" width="1" style="display:none"
+               src="https://www.facebook.com/tr?id=1074760507038616&ev=PageView&noscript=1"
+    /></noscript>
+<!-- End Meta Pixel Code -->
 </body>
 
 </html>
